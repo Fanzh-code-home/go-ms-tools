@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"reflect"
+
+	myTools "github.com/Fanzh-code-home/mstools/my_tools"
 )
 
 type test interface {
@@ -52,4 +54,7 @@ func main() {
 		fmt.Println(reflect.TypeOf(aaa[i]))
 	}
 	fmt.Println(aaa...)
+	ct := myTools.MustReadContentFile("./go.mod")
+	fmt.Println(ct)
+
 }

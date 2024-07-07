@@ -1,3 +1,3 @@
-module github.com/Fanzh-code-home/go-ms-tools
+module github.com/Fanzh-code-home/mstools
 
 go 1.21.6
