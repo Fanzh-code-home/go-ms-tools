@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	myTools "github.com/Fanzh-code-home/mstools/my_tools"
+	myTools "github.com/Fanzh-code-home/mstools/v2/my_tools"
 )
 
 type test interface {

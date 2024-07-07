@@ -1,4 +1,4 @@
-module github.com/Fanzh-code-home/mstools
+module github.com/Fanzh-code-home/mstools/v2
 
 go 1.21.6
 
